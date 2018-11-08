@@ -1,0 +1,162 @@
+ body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+
+ p {
+	  font-size: 16px;
+	}
+	
+p.forecast{
+	font-size: 12px;
+	line-height: 1;
+	color: #F5B7B1;
+	font-weight: bold;
+}
+
+p.forecastlarge{
+	font-size: 20px;
+	line-height: 1;
+}
+
+p.forecasttitle{
+	font-size: 12px;
+	line-height: 1;
+	padding-top: 10px;
+	font-weight: bold;
+	color: #F5B7B1;
+	padding-top: 0px;
+}
+
+p.resbutton{
+	color: #555555;
+	font-weight: bold;
+	font-size:20px;
+	margin: 0;
+	padding: 0;
+}
+
+p.foot{
+	font-size: 12px;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.vertborder {
+    border-right: 2px solid #ABB2B9;
+	padding-right: 45px;
+}
+	
+.margin {
+	  margin-bottom: 45px;
+	}
+
+.lmargin {
+	margin-left: 45px;
+}
+	  
+.bg-1 { 
+		background-image: url('wave.jpg'); 
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+        color: #ffffff;
+  }
+.bg-2 { 
+      background-color: #474e5d;
+      color: #ffffff;
+	}
+	
+.bg-3 { 
+      background-color: #ffffff; 
+      color:#555555;
+  }
+.bg-4 { 
+      background-color: #2f2f2f; 
+      color: #fff;
+  }
+  
+  .bg-5 {
+	  background-color: #34495E;
+	  color: white;
+  }
+	  
+.container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+.navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+.navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  
+  #waveheader {
+	  padding-right: 45px;
+	  padding-top: 10px;
+	  padding-bottom:0px;
+  }
+  
+.btnalign{
+	display:flex;
+	justify-content:center;
+	padding-top: 165px;
+	padding-bottom: 50px;
+}
+  
+  .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #F5B7B1;
+  border: none;
+  color: #34495E;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 350px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content:"\22BB";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  
+
+   
+  
+
+  
